@@ -13,29 +13,26 @@ const Food = () => {
 	const [list, setList] = useState([]);
 
 	const getMeals = async () => {
-		console.log(data.value);
 		if (data.value !== undefined && data.value !== null && data.value !== '') {
 			if (data.searchBy === 'ingredient') {
 				const url = `https://www.themealdb.com/api/json/v1/1/filter.php?i=${data.value}`;
 
 				const result = await axios.get(url);
-				console.log(data);
-				console.log(result.data.meals);
 				setMeals([...result.data.meals]);
 			} else if (data.searchBy === 'categorie') {
 				const url = `https://www.themealdb.com/api/json/v1/1/filter.php?c=${data.value}`;
 				const result = await axios.get(url);
-				console.log(result.data.meals);
+
 				setMeals([...result.data.meals]);
 			} else if (data.searchBy === 'name') {
 				const url = `https://www.themealdb.com/api/json/v1/1/search.php?s=${data.value}`;
 				const result = await axios.get(url);
-				console.log(result.data.meals);
+
 				setMeals([...result.data.meals]);
 			} else {
 				const url = `https://www.themealdb.com/api/json/v1/1/filter.php?a=${data.value}`;
 				const result = await axios.get(url);
-				console.log(result.data.meals);
+
 				setMeals([...result.data.meals]);
 			}
 		} else {
@@ -67,18 +64,10 @@ const Food = () => {
 			const url = 'https://www.themealdb.com/api/json/v1/1/list.php?a=list';
 
 			const result = await axios.get(url);
-			console.log(result.data.meals);
+
 			setList([{ strArea: `Select ${data.searchBy}` }, ...result.data.meals]);
 		}
 	};
-
-	// else if (data.searchBy === 'ingredient') {
-	// 			const url = 'https://www.themealdb.com/api/json/v1/1/list.php?i=list';
-
-	// 			const result = await axios.get(url);
-	// 			console.log(result);
-	// 			setList([{ strCategory: data.searchBy }, ...result.data.meals]);
-	// 		}
 
 	useEffect(
 		() => {
@@ -89,14 +78,13 @@ const Food = () => {
 		[data.searchBy]
 	);
 
-	console.log(data);
 	return (
 		<div className="container">
 			<div className="meal-wrapper">
 				<div className="meal-search">
 					<h2 className="title">Let me suggests you a Meals</h2>
 					<blockquote>
-						Real food doesn't have ingredients, real food is ingredients.<br />
+						Good Food || Good Code || Good Carrer.<br />
 						<cite>- Rohit Bahuguna</cite>
 					</blockquote>
 					<div className="option-control">
