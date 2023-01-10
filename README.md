@@ -22,8 +22,8 @@ Food => ex - indian
  - Enter the option data in the search box
  - Enter Search button
  - wait for few seconds
- - ![Screenshot from 2023-01-10 21-38-27](https://user-images.githubusercontent.com/90442893/211609534-2d4e67fb-7e69-4cd3-9250-49debf2d1e9a.png)
- - ![Screenshot from 2023-01-10 21-39-11](https://user-images.githubusercontent.com/90442893/211609684-b2e8c258-a232-47bc-af3a-b3df5e66e2d5.png)
+  ![Screenshot from 2023-01-10 21-38-27](https://user-images.githubusercontent.com/90442893/211609534-2d4e67fb-7e69-4cd3-9250-49debf2d1e9a.png)
+  ![Screenshot from 2023-01-10 21-39-11](https://user-images.githubusercontent.com/90442893/211609684-b2e8c258-a232-47bc-af3a-b3df5e66e2d5.png)
  ![Screenshot from 2023-01-10 21-40-48](https://user-images.githubusercontent.com/90442893/211609716-c70943d4-29e0-4b12-a12d-a651a7b![Screenshot from 2023-01-10 21-41-10](https://user-images.githubusercontent.com/90442893/211609785-17d8ee0a-b01a-4be9-9816-93ba22bfbcf3.png)
 c4456.png)
 - your search result will appare below
