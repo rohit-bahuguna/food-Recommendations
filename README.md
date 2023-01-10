@@ -16,6 +16,8 @@ Area of Origin of Food => ex - indian
 
 # How to use:
  - Select any " Search By option " 
+ ![Screenshot from 2023-01-10 21-11-28](https://user-images.githubusercontent.com/90442893/211609053-a8eaea93-f523-4f5f-b62c-8b7e1d84b367.png)
+
  - Enter the option data in the search box
  - Enter Search button
  - wait for few seconds
